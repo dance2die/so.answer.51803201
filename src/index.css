@@ -1,0 +1,25 @@
+body {
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue",
+    Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+}
+
+.some-fixed-page-header {
+  border: 1px solid red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: lightgray;
+  position: fixed;
+  top: 0;
+  left: 7px;
+  z-index: 999;
+  width: calc(100% - 17px);
+  height: 73px;
+}
+
+.ReactTable {
+  margin-top: 100px;
+}
